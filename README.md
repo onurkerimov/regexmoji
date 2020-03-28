@@ -1,12 +1,13 @@
 # regexmoji
+**regexmoji** is a tiny npm module that lets you write easily readable regular expressions, with emojis!
 
 ```js
-let re = rm(
+regexmoji(
   /💜(?:\.💜)*@(?:💚(?:💧💚)?\.)+💚(?:💧💚)?/g,
   {
     "💚": /[a-z0-9]/, // alphanumeric (single)
     "💧": /[a-z0-9-]*/, // alphanumeric and dash (multi)
-    "💜": /[a-z0-9!#$%&'*+/=?^_`{|}~-]+/, // one of a-z 0-9 ! # $ % & ' * + / = ? ^ _ ` { | } ~ -
+    "💜": /[a-z0-9!#$%&'*+/=?^_`{|}~-]+/, // stuff+
   }
 );
 ```
