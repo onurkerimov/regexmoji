@@ -1,4 +1,5 @@
 # regexmoji
+# ![](logo.png)
 **regexmoji** is an experimental module. Its main goal is to make regular expressions easier to read and maintain. 
 Just like how in CoffeeScript, [annotating regular expressions](http://coffeescript.org/#regexes) is possible (and I love that), with this plugin you can do this in vanilla JS. Also, a key advantage over CoffeeScript is that, it can also reduce repetition.
 
