@@ -1,0 +1,26 @@
+{
+  "name": "regexmoji",
+  "version": "1.0.0",
+  "description": "A tiny utility for writing easy to read regexps",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onurkerimov/regexmoji.git"
+  },
+  "homepage": "https://github.com/onurkerimov/regexmoji",
+  "keywords": [
+    "regex",
+    "regexp",
+    "emoji",
+    "template",
+    "literal",
+    "tree"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Onur Kerimov",
+  "license": "MIT"
+}
